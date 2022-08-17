@@ -8,7 +8,7 @@ function Home(){
     const skip = () => setWhich(x=>!x)
     const start = () => console.log('start')
     const connect = () => console.log('connect')
-    return <div className="wrapper">
+    return <div >
          <img src={_emoji} alt="" />
          <div className='skip' onClick={skip}>Skip</div>  
             <div className='outline'>

@@ -1,0 +1,33 @@
+.item-icon{
+    bottom: 1rem;
+}
+
+
+.host-address{
+    width: 0.78rem;
+    height: 0.18rem;
+    position: fixed;
+    right: 0.04rem;
+    top: 0.09rem;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.13rem;
+    line-height: 0.19rem;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    text-shadow: 0px 0.04rem 0.04rem rgba(0, 0, 0, 0.25);
+}
+
+.host-button{
+    width: 1.89rem;
+    height: 0.51rem;
+    position: fixed;
+    left: 0.93rem;
+    top:0.38rem;
+}
+
+.host-img{
+    position: fixed;
+    left: 0.2rem; 
+    top: 1rem;
+}
