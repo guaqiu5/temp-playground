@@ -10,7 +10,7 @@ interface IImg{
 function XyImg(props:IImg){
     const classes = classNames(props.className,'xy-img')
     return <div className={classes}>
-    <img src={props.src}  />
+    <img src={props.src}  className={classes} />
     {props.children}
     </div>
 }

@@ -15,6 +15,9 @@ function Host(){
         <div className="yellow-desc">I fell in love with you at first sight! ❤️❤️❤️</div>
     </div>
     <XyCard className="white-1"/>
+    <div className="host-title">Created program</div>
+    <div className="host-divide"></div>
+    <XyCard className="white-2"/>
     <XyNav />
     </div>
 }

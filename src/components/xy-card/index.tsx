@@ -16,11 +16,10 @@ function XyCard(props:ICard){
     return <div className={classes}>
         <div className="xy-card-programName">Writing Program 21</div>
         <div className="xy-card-dayCount">21 Days</div>
-        <div className="xy-card-progress">Well done!!!</div>
+        <div className="xy-card-progress">Well done!!!</div>   
         <div className="xy-card-icon">{
-            props.iconType === 0 ? 
-                <img src={icon1} alt="" /> :
-                <img src={icon1} alt="" />
+          
+              
             }
         </div>
         <div className="xy-card-extra">{props.children}</div>

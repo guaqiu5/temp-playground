@@ -32,3 +32,27 @@
     /* grey / medium */
     color: #7F8187;
 }
+
+.xy-card-progress{
+    margin-top:0.1rem;
+    margin-left: 0.27rem;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.13rem;
+    line-height: 0.19rem;
+    /* identical to box height */
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    /* grey / medium */
+    color: #7F8187;
+}
+
+.xy-card-icon{
+    margin-top: -0.73rem;
+    margin-left: 2.6rem;
+    width:0.7rem;
+    height: 0.7rem;
+    border: 0.01rem solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.08rem;
+    background-color: purple;
+}
